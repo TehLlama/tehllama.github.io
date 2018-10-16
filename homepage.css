@@ -1,29 +1,36 @@
 * { box-sizing: border-box; }
 header, nav, main, footer { display: block; }
 
-body { margin: 0; 
-       background-image: url(background.jpg);}
+body { color: #fff;
+       margin: 0; 
+       background-image: url(background.jpg); }
        
 nav { position: absolute;
       bottom: 0;
-      text-align: left;
-	  font-size: 1.5em; }
-nav a { text-decoration: none;
-		color: #fff;}
-nav ul { list-style-type: none; 
-		 padding-left: 20px; }
-nav li { display: inline;
-         background-color: hsla(0, 0%, 100%, 10%);
-         padding: 0.4em;
-         margin: 0.2em;
-		 font-weight: bold; }
+      text-align: left; }
+ul a { text-decoration: none;
+       color: #fff; }
+ul { list-style-type: none; 
+     padding-left: 20px;
+	 font-size: 1.5em; }
+li { display: inline;
+     background-color: hsla(0, 0%, 100%, 10%);
+     padding: 0.4em;
+     margin: 0.2em;
+	 font-weight: bold; }
 	   
-h1 { padding: 1em; 
-	 color: #fff;
-	 margin: 0;
-	 font-family: "Aldrich";
-	 font-weight: bold; 
-	 font-size: 4em; }
+h1 { font-size: 4em; }
+	 
+h2 { font-size: 2em; }
+	
+h1, h2 { font-family: "Aldrich";
+	     font-weight: bold;
+	     padding: 1em;
+         margin: 0; }
+
+.icon { width: auto;
+        height: 20px;
+         }
 
 @font-face {
   font-family: 'Aldrich';
