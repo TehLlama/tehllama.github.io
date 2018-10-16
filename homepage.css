@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+header, nav, main, footer { display: block; }
+
+body { margin: 0; }
+nav { width: 15%;
+	  float: left; 
+	  text-align: left; }
+nav a { text-decoration: none;
+		color: #000;}
+nav ul { list-style-type: none; 
+		 padding-left: 20px; }
+nav li { padding: 0.4em;
+		 font-weight: bold; }
+main { margin-left: 15%; 
+	   background-color: #fff;
+	   padding: 20px;}
+	   
+h1 { padding: 1em; 
+	 color: #fff;
+     background-color: #33f; 
+	 margin: 0;
+	 font-family: "Aldrich";
+	 font-weight: bold; 
+	 border-bottom: 4px solid #000;}
+img { border: 2px solid black; }
+
+@font-face {
+  font-family: 'Aldrich';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aldrich Regular'), local('Aldrich-Regular'), url(https://fonts.gstatic.com/s/aldrich/v8/MCoTzAn-1s3IGyJMVacY3w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+		 
+#wrapper { background-color: #ccf; }
