@@ -2,17 +2,18 @@
 nav, main, footer { display: block; }
 
 body { color: #fff;
-       margin: 0; 
+       background-color: #000;
+       margin: 0;
        background-image: url(background.jpg);
        background-position: center;
        background-size: cover; }
-       
+
 nav { position: absolute;
       bottom: 0;
       text-align: left; }
 ul a { text-decoration: none;
        color: #fff; }
-ul { list-style-type: none; 
+ul { list-style-type: none;
      padding-left: 20px;
 	 font-size: 1.5em; }
 li { display: inline-block;
@@ -20,13 +21,13 @@ li { display: inline-block;
      padding: 0.4em;
      margin: 0.2em;
 	 font-weight: bold; }
-	   
+
 main { height: 100vh; }
-	   
+
 h1 { font-size: 4em; }
-	 
+
 h2 { font-size: 2em; }
-	
+
 h1, h2 { font-family: "Aldrich";
 	     font-weight: bold;
 	     padding: 1em;
