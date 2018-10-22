@@ -4,7 +4,8 @@ nav, main, footer { display: block; }
 body { color: #fff;
        margin: 0; 
        background-image: url(background.jpg);
-       background-position: center; }
+       background-position: center;
+       background-size: cover; }
        
 nav { position: absolute;
       bottom: 0;
