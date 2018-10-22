@@ -1,9 +1,11 @@
 * { box-sizing: border-box; }
-header, nav, main, footer { display: block; }
+nav, main, footer { display: block; }
 
 body { color: #fff;
        margin: 0; 
-       background-image: url(background.jpg); }
+       background-image: url(background.jpg);
+       background-size: cover; 
+       background-position: center; }
        
 nav { position: absolute;
       bottom: 0;
@@ -13,11 +15,13 @@ ul a { text-decoration: none;
 ul { list-style-type: none; 
      padding-left: 20px;
 	 font-size: 1.5em; }
-li { display: inline;
+li { display: inline-block;
      background-color: hsla(0, 0%, 100%, 10%);
      padding: 0.4em;
      margin: 0.2em;
 	 font-weight: bold; }
+	 
+main { height: 100vh; }
 	   
 h1 { font-size: 4em; }
 	 
