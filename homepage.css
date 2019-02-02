@@ -10,12 +10,14 @@ body { color: #fff;
 
 nav { position: absolute;
       bottom: 0;
-      text-align: left; }
+      text-align: left; 
+	  margin-bottom: 10px; }
 ul a { text-decoration: none;
        color: #fff; }
 ul { list-style-type: none;
      padding-left: 20px;
-	 font-size: 1.5em; }
+	 font-size: 1.5em; 
+	 margin: 0; }
 li { display: inline-block;
      background-color: hsla(0, 0%, 100%, 10%);
      padding: 0.4em;
@@ -24,25 +26,24 @@ li { display: inline-block;
 
 main { height: 100vh; }
 
-h1 { font-size: 4em; }
-
-h2 { font-size: 2em; }
-
-h1, h2 { font-family: "Aldrich";
-	     font-weight: bold;
-	     padding: 1em;
-         margin: 0; }
+h1 { font-family: "Aldrich";
+	 font-weight: bold;
+     font-size: 4em; 
+	 padding: 1em;
+     margin: 0; }
 
 .icon { width: auto;
         height: 20px; }
 
-.card { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-		transition: 0.3s; 
-		width: 20%; 
-		background-color: rgba(255, 255, 255, 10%); 
-		display: inline-block; }
+.card, li { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+		   transition: 0.3s; }
 
-.card:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8); }
+.card { width: 20%; 
+		background-color: rgba(255, 255, 255, 10%); 
+		display: inline-block; 
+		margin: 20px; }
+
+.card:hover, li:hover { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); }
 
 .card_text { padding: 8px 16px; 
 			 font-weight: bold; }
