@@ -95,7 +95,7 @@ h1 {
 */
 
 /* Phone CSS */
-@media only screen and (width: 768px) {
+@media only screen and (max-width: 768px) {
   h1 {
     padding: 0 20px;
     width: 100%;
