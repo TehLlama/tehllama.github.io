@@ -122,4 +122,7 @@ h1 {
   main {
     height: 100%;
   }
+  .card:hover {
+    width: 80%;
+  }
 }
