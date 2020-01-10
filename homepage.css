@@ -22,7 +22,7 @@ body {
   font-size: 6em;
   padding: 0;
   padding-left: 1em;
-  margin: 0;6em
+  margin: 0;
 }
 
 nav {
@@ -54,7 +54,7 @@ nav li {
 main {
   grid-area: main;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1.2em;
   margin: 1.2em;
   align-items: start;
